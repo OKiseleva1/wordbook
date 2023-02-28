@@ -1,0 +1,66 @@
+@import '../variables.scss';
+
+.wrapper {
+    display: flex;
+    background-color: $color-additional_2;
+}
+
+.card-wrapper {
+    max-width: $content-width;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main {
+    color: aqua;
+}
+
+.study {
+    color: aqua;
+
+
+}
+
+.study_card {
+    display: flex;
+    justify-content: space-between;
+
+    column-gap: 20px;
+
+
+}
+
+.btn_left {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $color-button;
+}
+
+.word {
+    display: flex;
+    border: solid 1px red;
+    width: 500px;
+
+
+}
+
+.btn_translate {
+    color: aqua;
+}
+
+.btn_right {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $color-button;
+}
+
+.study_counter {
+    display: inline;
+}
