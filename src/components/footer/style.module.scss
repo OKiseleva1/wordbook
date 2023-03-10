@@ -3,9 +3,10 @@
 .wrapper {
     display: flex;
     background-color: $color-background;
+
 }
 
-.header-wrapper {
+.footer-wrapper {
     max-width: $content-width;
     width: 100%;
     margin: 0 auto;
@@ -16,12 +17,12 @@
 
 }
 
-.header-logo-pic {
+.footer-logo-pic {
     width: 100px;
     height: 40px;
 }
 
-.header-logo {
+.footer-logo {
     display: flex;
     color: $color-additional;
 }

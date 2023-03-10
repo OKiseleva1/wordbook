@@ -3,6 +3,7 @@
 .wrapper {
     display: flex;
     background-color: $color-additional_2;
+
 }
 
 .card-wrapper {
@@ -17,11 +18,12 @@
 }
 
 .main {
-    color: aqua;
+    margin: 0 auto;
+    color: $color-additional;
 }
 
 .study {
-    color: aqua;
+    color: $color-additional;
 
 
 }
@@ -29,10 +31,9 @@
 .study_card {
     display: flex;
     justify-content: space-between;
-
     column-gap: 20px;
-
-
+    text-align: center;
+    align-items: center;
 }
 
 .btn_left {
@@ -44,14 +45,19 @@
 
 .word {
     display: flex;
-    border: solid 1px red;
-    width: 500px;
-
-
+    flex-direction: column;
+    border: solid 2px $color-additional;
+    border-radius: 20px;
+    width: 400px;
+    align-items: center;
+    background-color: $color-background;
 }
 
 .btn_translate {
-    color: aqua;
+    color: $color-additional;
+    margin-bottom: 20px;
+    border: solid 2px $color-additional;
+    border-radius: 10px;
 }
 
 .btn_right {
